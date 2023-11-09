@@ -1,0 +1,48 @@
+.book-slide {
+  max-width: 1320px;
+  margin: auto;
+  height: max-content;
+
+  .book-slide-title {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .book-slide-item {
+    width: 210px;
+  }
+
+  .images-wrap > div {
+    display: flex !important;
+    justify-content: center;
+  }
+  .book-slide-item-wrapper {
+    position: relative;
+  }
+
+  .book-slide-item-title {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+  }
+}
+
+.slide-button {
+  color: var(--primary-color);
+  font-size: 50px;
+}
+
+.react-slideshow-container .nav:first-of-type {
+  left: -35px !important;
+}
+
+.react-slideshow-container .nav:last-of-type {
+  right: -35px !important;
+}

@@ -1,0 +1,59 @@
+.home-page_inner {
+  max-width: 1320px;
+  margin: auto;
+  padding: 0 15px;
+  margin-top: 60px;
+  display: flex;
+
+  .best-sellers {
+    width: 67%;
+    overflow: hidden;
+    margin-right: 10px;
+
+    .title {
+      position: relative;
+
+      .ant-divider {
+        margin-top: 0;
+        margin-bottom: 40px;
+      }
+
+      .app-button {
+        position: absolute;
+        top: 5px;
+        right: 0;
+      }
+    }
+
+    .best-sellers_list {
+      margin-left: -30px;
+    }
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  .most-viewed {
+    width: 33%;
+    margin-left: 10px;
+
+    .most-viewed_container {
+      margin: 40px 0 0;
+      padding: 30px;
+      background-color: #f4fbf2;
+      border-radius: 20px 20px 20px 20px;
+
+      .book-item .thumb {
+        width: 35%;
+      }
+    }
+  }
+}
+
+.home-page {
+  .new-books {
+    margin: 40px 0;
+    padding: 80px 0;
+  }
+}
